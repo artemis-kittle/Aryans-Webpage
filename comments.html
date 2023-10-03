@@ -1,0 +1,408 @@
+<html>
+    <head>
+        <title> Comments- Aryan </title>
+        <link rel="stylesheet" href="websystems.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body class="body">
+        <ul id="navcomm">
+            <li class ="navcomm"><a href="index.html">Home</a></li>
+            <li class ="navcomm"><a href="past.html">Past</a></li>
+            <li class ="navcomm"><a href="future.html">Future</a></li>
+            <li class ="navcomm"><a href="comments.html">Comments</a></li>
+        </ul>
+        <img src="images/comments.jpg" alt="Comments Image" class="image">
+        <div class="commentsshadow">
+
+        <h1 class="commentsheading" id="design"> Overall Design and Structure</h1>
+        <ul>
+            <li>
+                This website has been made in accordance with all the rules and suggestions outlined 
+                on Canvas for this assignment. There are four html documents, <ins>index.html</ins>, <ins>past.html</ins>, <ins>future.html</ins> and <ins>comments.html</ins> 
+                with one Cascading Style Sheet, <ins>websystems.css</ins> and various jpg, png and jpeg pictures. As requested by the subject coordinator and tutor, <ins>no Javascript, PHP, or 
+                templates have been used</ins>. All the content, including the pictures and texts, are original and made by me.
+            </li>
+            <br>
+            <li>
+                The general structure of the four webpages is below: 
+                <br>
+                <img src="images/structure.png" alt="Structure Image" class="center">
+            </li>
+            <br>
+             <li>
+                Title:
+                <br>
+            All the webpages have "Title" added in the <'head'> section so that the title of the webpage appears on the tab of browsers. 
+        </li>
+        <br>
+            <li> 
+                Navigation Bar:
+                <br>
+        
+            
+            A consistent navigation menu bar at the top of the webpage is used for cycling through the pages. 
+            When mouse is hovered over the buttons of navigation 
+            bar, text colour and background changes to show which button is being selected. 
+            
+            
+              
+    
+        </li>
+        <br>
+        <li>
+            Image:
+            <br>
+            All the webpages have thematic image with the title of the webpage.
+        </li>
+        <br>
+        <li>
+            Text Boxes:
+            <br>
+            All the text are in text boxes. Rectangular Text boxes were looking too generic. Inspired from Apple's website, all text boxes were made 
+            round-cornered by using "border radius" property of CSS. The round-cornered borders are in 
+              accordance with the theme of each page.
+        </li>
+        <br>
+        
+       
+        
+        <li>
+            Footers: 
+            <br>
+            Basic information, as well as bookmarks [directional buttons] are placed at the bottom of each page and are in accordance with the theme of the webpage. 
+        </li>
+        <br>
+        
+       <li>
+        What I tried to add but failed: 
+        <ul>
+            <li>
+                I tried to add a Favicon [a website icon associated with a particular website, 
+                typically displayed in the address bar of a browser accessing the site]. I debugged and tried 
+                a lot but it looked as if the favicon of Ed always overrided my icon. 
+                </li>
+                <li>
+                    I tried to add a gif in the homepage, it worked and looked good, but then my website
+                    was taking a lot of space and the marker on Ed said that the file was too big to be uploaded 
+                to the remote server.
+                </li>
+                <li>
+                I tried to add a clickable image on Future page. I was successful in doing that, the 'google Foobar' image was 
+                clickable, it opened the google foobar challenge on a new tab. However, because it was an external link,
+                Ed marker raised 10 errors for it. I asked my tutor and he told me, I went "Ahead and Beyond", which is good,
+                however, this assignment has its limitation. So, I had to remove the external link. 
+                </li>
+        </ul>
+       </li>
+
+        </ul>
+            </div>
+            <br>
+
+        <div class="commentsshadow">
+
+        <h1 class="commentsheading" id="tech"> Technical Aspect: CSS Selctors and ID</h1>
+        <ul>
+            <li>
+            <'meta'> tag viewport HTML code has been added in the <'head'> of all webpages which will give the browser instructions 
+            on how to control the page's dimensions and scaling to remain uniform in all kinds of screen sizes.
+        </li>
+        <br>
+            <li>
+                The minimum requirement for the assignment was to use 5 CSS Classes and 1 CSS ID. Because the navigation menu, bodies, 
+                footers and text boxes are all differnent across pages due to themeing, I ended up using a lot more classes and IDs.
+            </li>
+            <br>
+            <li>
+                I used 20 CSS Classes and 5 CSS IDs. The following table summarises my usage:
+                <br>
+              
+                <table>
+                    <tr>
+                        <th>CSS Class/ID</th>
+                        <th>Description</th>
+                        <th>Alternative used in different Webpage</th>
+                        <th>Alternative Description</th>
+                    </tr>
+                    <tr>
+                        <td>.nav</td>
+                        <td>For defining the horizontal list of Navigation Menu with Black background by default</td>
+                        <td>#navfuture, #navpast, #navcomm </td>
+                        <td> for defining the image background and custom RGB colour used in navigation menu of 'Future' and 
+                            'Past' webpages respectively. </td>
+                    </tr>
+                    <tr>
+                        <td>.nav2</td>
+                        <td>for defining the text colour, font and background of the buttons on the navigation bar</td>
+                        <td>.navpast, .navcomm</td>
+                        <td>'Past' webpage has light theme so text colour and background colour had to be changed so that the buttons are visible</td>
+                    </tr>
+                    <tr>
+                        <td>.nav:hover</td>
+                        <td>for defining the text colour and background colour change when mouse hovers overs the navigation button</td>
+                        <td>.navpast:hover, .navcomm:hover</td>
+                        <td>for defining the light-themed colour change when mouse hovers over the navigation buttons in 'Past' webpage</td>
+                    </tr>
+                    <tr>
+                        <td>.indexheading</td>
+                        <td>for defining the text colour, font, size, family, alignment and padding of text box heading </td>
+                        <td>.futureheading, .commentheading, .pastheading</td>
+                        <td>for defining the text colour, font, size, family, alignment and padding of text box heading of different 
+                            webpages according to their themes </td>
+                    </tr>
+                    <tr>
+                        <td>.shadow</td>
+                        <td> for defining round-cornered text box's border radius, background colour, padding, margin, opacity and border type </td>
+                        <td>.pastshadow, .commentsshadow, .futureshadow </td>
+                        <td>for defining round-cornered text box's border radius, background colour, padding, margin, opacity and border type of different 
+                            webpages according to their themes
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>.foot</td>
+                        <td>for defining round-cornered footer's border radius, background colour, padding, margin, opacity and border type</td>
+                        <td>.footfuture, .footcomm, .footpast</td>
+                        <td>for defining round-cornered footer's border radius, background colour, padding, margin, opacity and border type
+                            of different webpages according to their themes
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>table,th,td</td>
+                        <td>for defining the colour, border and collapse of tables used</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>.button:link, .button:visited</td>
+                        <td>for defining the bookmark buttons at the end of the page </td>
+                        <td>#buttonpast, #buttonfuture, #buttoncomm</td>
+                        <td>for defining the bookmark buttons of different webpages according to their themes </td>
+                    </tr>
+
+
+                </table>
+            </li>
+            <br>
+            <li> Apart from CSS, I have throughly used <'div'>, and <'br'> to structure my page as I wanted to.</li>
+            <br>
+            <li> I've also used <'span'>, <'ins'> and clickable images for emphasis, underlining and customization 
+            to get desired output.  </li>
+            <br>
+            <li>IDs have been used for bookmarking differnt sections on this page and for returning to top from footer throughout 
+                all four webpages.
+            </li>
+            <br>
+            <li>
+               Unordered Lists, Nested Lists, Horizontal Lists and tables have been used to format the imformation properly. 
+            </li>
+  
+
+        </ul>
+            </div>
+
+            <br>
+
+        <div class="commentsshadow">
+
+        <h1 class="commentsheading" id="aest"> Aesthetics</h1>
+        
+        <ul>
+            <li>All the four webpages are in different themes.
+            The colour and theme of the navigation menu bar changes according
+            to the theme of the webpage.</li>
+            <br>
+            <li>
+            
+                The colour and theme of the webpages are as follows: 
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Home Page</th>
+                        <th>Past</th>
+                        <th>Future</th>
+                        <th>Comments</th>
+                    </tr>
+                    <tr>
+                        <th>Colour</th>
+                        <td>Black and White</td>
+                        <td><span style="color:dodgerblue">Blue</span> and White</td>
+                        <td><span style="color:dodgerblue">Blue</span> and Black</td>
+                        <td><span style="color:Red">Red</span> and Black</td>
+                    </tr>
+                    <tr>
+                        <th>Theme</th>
+                        <td>Scenic</td>
+                        <td>Minimalistic</td>
+                        <td>Star Wars and Futuristic</td>
+                        <td>Gaming</td>
+                    </tr>
+                </table>
+
+
+            
+        </li>
+        <br>
+        <li>
+            The font style and size for page headings, sub-headings and texts are consistent throughout all the pages.
+            Page Headings are in "Russo One" font. Sub-Headings are in "Marker Felt, Fantasy" and normal texts in "Times New Roman".
+            The font size is also consistent. All webpages have been defined such that the texts are readable across all screen sizes.
+        </li>
+        <br>
+        <li>
+            All the background colours in webpages have been matched to the colours of the graphics repectively.
+        </li>
+        <br>
+        <li>
+            Future Webpage:
+            <ul>
+                <li>
+                    Star Wars has always been associated with 'Future'. I've used a picture which resembles
+                    space vibe of Star Wars to relate it to 'Future'. 
+                </li>
+            <li>
+            Another striking feature of this webpage is, unlike other pages where solid colour
+            background is used for navigation menu, space image has been used as backgroud 
+            for navigation menu to provide a feeling of "Limitless galaxy".
+            </li>
+            </ul>
+        </li>
+        <br>
+        <li>
+            Past Webpage:
+            <ul>
+                <li>
+                    All ideas and images related to 'Past' contained clocks, hourglass or timepieces. 
+                    I did not want such a theme. I rather went with minimalistic look using flat 
+                    coloured geometric patterns on top of one another.
+                </li>
+                <li>
+                'Past' is the only webpage where image has been used as a background for paragraph text. 
+                </li>
+                <li>
+                RGB colour matching tool has been used to set the colour of the navigation menu same 
+                as the colour of the backgroud in this webpage.
+                </li>
+                 <li>
+                The opacity of round-cornered text box in 'Past' webpage has been reduced so that the multi-coloured 
+                background is visible.
+                </li>
+            </ul>
+        </li>
+        <br>
+        <li>
+            Home Page:
+            <ul>
+                <li>
+                   Our tutor told that the Home page should look attractive, that is why 
+                   I've used a background that most people will find appealing and soothing : a serene scenic mountain background.
+                
+                </li>
+                <li>
+                     I was unsure of the colours to use as everyone has different perspective. I read that 
+                it is psychologically proven that most people find the combination of Black 
+                and White to be pleasing, So I used basic White, Black and Grey colours in this webpage.
+                    
+                </li>
+            </ul>
+            </li>
+            <br>
+            <li>Comments Page:
+                <ul>
+                    <li>
+                        This page contains most of the text, so high contrast white on black is used so that the webpage is 
+                        easy to read while maintaining the distinctive gaming look.
+                    </li>
+                    <li>
+                        Appealing to the fellow gamers, ROG Red on Black with gaming symbols have been used.
+                    </li>
+                    <li>
+                        The navigation menu buttons on this page turn white text on red when hovered over, corresponding to the theme.
+                    </li>
+                </ul>
+            </li>
+
+        </ul>
+            </div>
+
+            <br>
+
+        <div class="commentsshadow">
+
+        <h1 class="commentsheading" id="access"> Accessibility</h1>
+        
+        <p>
+            <ul>
+                <li>Image Alt:
+                    <br>
+                    All images [including the background images] used in the four webpages have 'alt' attribute,
+                    so that screen readers can read the text presented by 'alt' tag and people with visual 
+                    impairment can hear and get an idea of what kind of image is added to the webpage.
+                </li>
+                <br>
+                <li>Page Zoom:
+                    <br>
+                    All the four webpages can be zoomed in and out. The text size of all attributes increase and decrease
+                    with the relative increase and decrease of webpage size. The zoom in and out feature has been tested in
+                    Safari and Chrome browsers.
+                </li>
+                <br>
+                <li>Relative Sizing: 
+                    <br>
+                    All the webpages are responsive and can be accessed on any device regardless of its screen size. The next 
+                    picture shows all the webpages on a smartphone.
+                    <img src="images/example.png" alt="example of webpage Image" class="center">
+                </li>
+                <br>
+                <li>High Contrast Text:
+                    <br>
+                    The text on the webpages highly contrasts with the background colours, which 
+                    makes the information easier to read. Page titles, menus and headings are large enough
+                    to be read clearly even from distance.
+                </li>
+                <br>
+                <li>Page up:
+                    <br>
+                    A direct link at the bottom of each page takes users directly to the top, which
+                    may be helpful with smaller devices because pages get long in smaller devices 
+                    and users will not have to manually scroll up.
+                </li>
+                <br>
+                <li>Bookmarks:
+                    <br>
+                    The imformation contained in this comments page is quite large. Finding specific titles
+                    will be a tedious task in smaller devices, so bookmarks to all major headings have been added
+                    at the bottom of this page, so that users can easily locate the imformation they need.
+                </li>
+                <br>
+                <li>Bullet points where necessary:
+                    <br>
+                    Bullet points, lists and tables have been used extensively throughout all four pages
+                    to structure imformation precisely which is easier to follow and read.
+                </li>
+                <br>
+                <li>Simple to understand: 
+                    <br>
+                 The website also touches on cognitive disabilities, distractibility and inability to remember or focus on large amounts of information by 
+                 keeping the content in all the four webpages clear and succinct, which limits confusion and ambiguity.
+                 Navigation is consistent and predictable, all webpages are logically structured in the same pattern and the text is written as clearly and simply as possible.
+            </ul>
+        </p>
+            </div>
+
+            <div class="footcomm">
+            <p>
+                Aryan Sinha | University of Technology Sydney | 31268 Web Systems Autumn 2023  
+            </p>
+            <a class="button" href="#navcomm">Go To Top</a>
+            <a class="button" href="#design">Overall Design</a>
+            <a class="button" href="#tech">Technical Aspect</a>
+            <a class="button" href="#aest">Aesthetics</a>
+            <a class="button" href="#access">Accessibility</a>
+
+        </div>
+
+
+
+    </body>
+</html>

@@ -1,0 +1,277 @@
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  text-align: center;
+}
+
+#navfuture {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  text-align: center;
+  background-image: url('images/futurehead.png');
+}
+
+#navpast {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  background-color: rgb(240,244,245);
+}
+
+#navcomm {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  text-align: center;
+}
+.nav li a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.nav2 {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.nav2 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.nav2 a:hover {
+  background-color: white;
+  color: black;
+}
+
+.navpast {
+  display: inline-block;
+  font-size: 20px;
+}
+
+/*.navpast a.active {
+  background-color: #2196F3;
+  color: white;
+  style="background-color:rgb(19,39,64)"
+}*/
+
+
+.navpast a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.navpast a:hover {
+  background-color:  rgb(19,39,64);
+  color: white;
+}
+.navcomm {
+  display: inline-block;
+  font-size: 20px;
+}
+.navcomm a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.navcomm a:hover {
+  background-color: red;
+  color: white;
+}
+
+.futureheading {
+  color:white;
+  padding: 1%;
+  text-align: center;
+  font-family:  Marker Felt, fantasy;
+}
+
+.indexheading {
+  color:black;
+  padding: 1%;
+  text-align: center;
+  font-family:  Marker Felt, fantasy;
+}
+
+.commentsheading {
+  background-color: black;
+  color:red;
+  padding: 1%;
+  text-align: center;
+  font-family:  Marker Felt, fantasy;
+}
+
+.pastheading {
+  color : rgb(19,39,64);
+  padding: 1%;
+  text-align: center;
+  font-family:  Marker Felt, fantasy;
+}
+
+.shadow {
+  border-radius: 25px;
+  background: #fcfdfb;
+  padding: 2%;
+  margin :1%; 
+}
+
+.pastshadow {
+  color : rgb(19,39,64);
+  border: 2px solid rgb(19,39,64);
+  margin: 1%;
+  border-radius: 25px;
+  background-color: rgb(240,244,245);
+  padding: 2%; 
+  opacity: 80%;
+}
+
+.futureshadow {
+  color : white;
+  border: 2px solid rgb(33, 12, 151);
+  border-radius: 25px;
+  margin : 1%;
+  background-color: black;
+  padding: 2%; 
+}
+
+.commentsshadow {
+  color : white;
+  border: 2px solid red;
+  margin: 1%;
+  border-radius: 25px;
+  background-color: black;
+  padding: 2%; 
+}
+
+table,th,td{
+  color: white;
+  border: 2px solid white;
+  border-collapse: collapse;
+  padding: 6px;
+}
+
+.foot {
+  color : white;
+  text-align: center;
+  margin:1%;
+  border: 2px solid white;
+  border-radius: 25px;
+  background-color: black;
+  padding-bottom: 5px;
+}
+
+.footpast {
+  color : rgb(19,39,64);
+  text-align: center;
+  border: 2px solid rgb(19,39,64);
+  border-radius: 25px;
+  margin: 1%;
+  background-color:  rgb(240,244,245);
+  opacity: 80%;
+  padding-bottom: 5px;
+}
+
+.footfuture {
+  color : white;
+  text-align: center;
+  border: 2px solid rgb(33, 12, 151);
+  border-radius: 25px;
+  margin : 1%;
+  background-color: black;
+  padding-bottom: 5px;
+}
+
+.footcomm {
+  color : white;
+  text-align: center;
+  border: 2px solid red;
+  border-radius: 25px;
+  margin : 1%;
+  background-color: black;
+  padding-bottom: 5px;
+}
+
+.button:link, .button:visited {
+  background-color: black;
+  border: 2px solid red;
+  color: white;
+  padding: 1%;
+  text-align: center;
+  display: inline-block;
+}
+
+#pastbutton:link, #pastbutton:visited {
+  background-color: rgb(240,244,245);
+  border: solid rgb(19,39,64);
+  color: rgb(19,39,64);
+  padding: 1%;
+  text-align: center;
+  display: inline-block;
+}
+
+#futurebutton:link, #futurebutton:visited {
+  background-color: black;
+  border: solid rgb(33, 12, 151);
+  color:white;
+  padding: 1%;
+  text-align: center;
+  display: inline-block;
+}
+
+#homebutton:link, #homebutton:visited {
+  background-color: black;
+  border: solid white;
+  color:white;
+  padding: 1%;
+  text-align: center;
+  display: inline-block;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.body{
+  background-color:black;
+}
+
+.pastbody {
+  background-color:rgb(240,244,245);
+}
+
+.image{
+ width:100%;
+}
+
+#pastback {
+background-image: url('images/pastfinal.jpg');
+}
+
+#foo{
+  float:right;
+  width:90px;
+  height:90px;
+}
+
